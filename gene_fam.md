@@ -56,10 +56,10 @@ TargetP:
 2. Alphafold  
 https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb  可能需要翻x  
 3. 第三方软件对模型评分  
-模型预测出来后需要有评估软件认为合格才能用，下载PDB文件，提交到测评软件。
-SAVES：（一次性提供6个软件评估结果）https://saves.mbi.ucla.edu/ ，其中有三个显示通过即表示模型可用。多个软件判断模型好坏依据。
+模型预测出来后需要有评估软件认为合格才能用，下载PDB文件，提交到测评软件。  
+SAVES：（一次性提供6个软件评估结果）https://saves.mbi.ucla.edu/ ，其中有三个显示通过即表示模型可用。多个软件判断模型好坏依据。  
 1).verify 3D  
-超过80%的残基拥有大于0.2的3D/1D值，则模型质量合格，低于0.2的部分需要进一步修正。
+超过80%的残基拥有大于0.2的3D/1D值，则模型质量合格，低于0.2的部分需要进一步修正。  
 2).procheck  
 PROCHECK程序不考虑能量，只检测结构中的残基之间角度是否合理，生成Ramachandran plot。PROCHECK显示氨基酸残基核心区：91.3%，允许区：8.3%，大致允许区：0.4%，禁阻区：0%，位于可接受区的达到了100%，一般位于可接受区的氨基酸残基大于90%可以认为蛋白结构合理。  
 ![saves](https://www.omicsclass.com/image/show/attachments-2021-04-NZvEPcf7607fa2ca24e15.png)
