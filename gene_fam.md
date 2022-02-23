@@ -31,5 +31,5 @@ MEME可在线分析，也可本地在服务器上进行。
 
 ## 5.基因结构分析- 外显子内含子等作图
 GSDS网址：http://gsds.gao-lab.org/   
-![](https://www.omicsclass.com/image/show/attachments-2018-10-JQEPqA8I5bd6dbd9b9360.jpg)  
+![GSDS](https://www.omicsclass.com/image/show/attachments-2018-10-JQEPqA8I5bd6dbd9b9360.jpg)  
 
