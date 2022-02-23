@@ -4,7 +4,7 @@
 Ensembl下载地址：http://plants.ensembl.org/index.html  下载方法可参考：https://www.omicsclass.com/article/58  
 phytozome（JGI）下载地址：https://phytozome.jgi.doe.gov/pz/portal.html  下载方法可以参考：https://www.omicsclass.com/article/50  
 NCBI官网下载：https://www.ncbi.nlm.nih.gov/  下载方法可参考：https://www.omicsclass.com/article/497  
-常用下载工具包括：wget, curl, datasets等，如果要从NCBI批量下载基因组数据，推荐使用专门的下载工具datasets，如要下载所有柑橘基因组
+常用下载工具包括：wget, curl, datasets等，如果要从NCBI批量下载基因组数据，推荐使用专门的下载工具datasets，如要下载所有柑橘基因组  
 ```
 datasets download genome taxon "citrus" --dehydrated
 #下载会得到一个压缩文件ncbi_dataset.zip，包含了需要下载的文件
@@ -12,23 +12,23 @@ unzip ncbi_dataset.zip
 datasets dehydrate --directory .
 ```
 ## 2.基因家族鉴定  
-1. 结构域hmmer鉴定
-查找自己研究的基因家族含有什么结构域信息，文献中来或者上pfam数据库中直接搜索。如果研究的是转录因子，用plantTFDB鉴定http://planttfdb.gao-lab.org/。
+1. 结构域hmmer鉴定  
+查找自己研究的基因家族含有什么结构域信息，文献中来或者上pfam数据库中直接搜索。如果研究的是转录因子，用plantTFDB鉴定http://planttfdb.gao-lab.org/。  
 pfam：http://pfam.xfam.org/  
-2. blast鉴定
-如果研究的基因家族未找到结构域信息，可通过blast直接搜索相似序列，再根据比对情况、功能注释等信息确定候选对象。
+2. blast鉴定  
+如果研究的基因家族未找到结构域信息，可通过blast直接搜索相似序列，再根据比对情况、功能注释等信息确定候选对象。  
 
 ## 3.进化树分析  
-1. 基于结构域构建进化树
-2. 基于基因全长构建进化树
-3. 进化树显示与美化
-   a. Evolview v2: https://www.evolgenius.info/evolview-v2/  
-   b. iTOL: https://itol.embl.de/
+1. 基于结构域构建进化树  
+2. 基于基因全长构建进化树  
+3. 进化树显示与美化  
+   a. Evolview v2: https://www.evolgenius.info/evolview-v2/   
+   b. iTOL: https://itol.embl.de/  
 ![tree](https://www.omicsclass.com/image/show/attachments-2019-02-RbUXm4HJ5c661bede4e37.jpg)
 
 ## 4.MEME 搜索基因motif分析
 MEME(Motif-based sequence analysis tools)大家都很了解，是搜索DNA或者蛋白质的motif常用工具，结果输出一般是有四个文件，motif的图形展示文件（LOGO），txt文本，html的网页信息文件及xml格式文件。  
-MEME可在线分析，也可本地在服务器上进行。
+MEME可在线分析，也可本地在服务器上进行。  
 ![motif](https://www.omicsclass.com/image/show/attachments-2018-10-eE4S9VaA5bd6dbc5cca12.jpg)
 
 ## 5.基因结构分析- 外显子内含子等作图
@@ -36,8 +36,8 @@ GSDS网址：http://gsds.gao-lab.org/
 ![GSDS](https://www.omicsclass.com/image/show/attachments-2018-10-JQEPqA8I5bd6dbd9b9360.jpg)  
 
 ## 6.基因定位到染色体
-http://mg2c.iask.in/mg2c_v2.0/
-MG2C, MapGene2Chromosom: http://mg2c.iask.in/mg2c_v2.0/
+http://mg2c.iask.in/mg2c_v2.0/  
+MG2C, MapGene2Chromosom: http://mg2c.iask.in/mg2c_v2.0/  
 ![MG2C](https://www.omicsclass.com/image/show/attachments-2018-10-kWpPgbY35bd6dbf186274.jpg)
 
 ## 7.基因顺势作用原件分析
@@ -55,7 +55,7 @@ TargetP:
 相似的氨基酸序列对应着相似的蛋白质结构 ,找到与目标序列一致度≥30%已知结构作为模板代表工具: SWISS-MODEL https://swissmodel.expasy.org/   
 2. Alphafold  
 https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb  可能需要翻x  
-3. 第三方软件对模型评分
+3. 第三方软件对模型评分  
 模型预测出来后需要有评估软件认为合格才能用，下载PDB文件，提交到测评软件。
 SAVES：（一次性提供6个软件评估结果）https://saves.mbi.ucla.edu/ ，其中有三个显示通过即表示模型可用。多个软件判断模型好坏依据。
 1).verify 3D
