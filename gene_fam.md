@@ -22,7 +22,7 @@ pfam：http://pfam.xfam.org/
 1. 基于结构域构建进化树
 2. 基于基因全长构建进化树
 3. 进化树显示与美化
-   a. Evolview v2: https://www.evolgenius.info/evolview-v2/
+   a. Evolview v2: https://www.evolgenius.info/evolview-v2/  
    b. iTOL: https://itol.embl.de/
 
 ## 4.MEME 搜索基因motif分析
@@ -31,5 +31,5 @@ MEME可在线分析，也可本地在服务器上进行。
 
 ## 5.基因结构分析- 外显子内含子等作图
 GSDS网址：http://gsds.gao-lab.org/   
-![](https://www.omicsclass.com/image/show/attachments-2018-10-JQEPqA8I5bd6dbd9b9360.jpg)
+![](https://www.omicsclass.com/image/show/attachments-2018-10-JQEPqA8I5bd6dbd9b9360.jpg)  
 
