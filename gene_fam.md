@@ -49,7 +49,7 @@ Plant CARE 地址：http://bioinformatics.psb.ugent.be/webtools/plantcare/html/
 DeepLoc:
 TargetP:
 
-## 9.蛋白三维结构分析  
+## 9.蛋白三维结构分析    
 ![3d](https://www.omicsclass.com/image/show/attachments-2021-04-hFGGUaNk6073f4798341d.png)
 1.同源模建 homology modeling   
 相似的氨基酸序列对应着相似的蛋白质结构 ,找到与目标序列一致度≥30%已知结构作为模板代表工具: SWISS-MODEL https://swissmodel.expasy.org/   
