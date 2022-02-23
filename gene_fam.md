@@ -1,5 +1,5 @@
-# 基因家族鉴定分析操作手册
-## 1.数据准备
+# 基因家族鉴定分析操作手册  
+## 1.数据准备  
 基因家族鉴定与分析所需数据一般包括基因组序列fasta，基因组注释文件gff，编码序列cds和蛋白序列pep。  
 Ensembl下载地址：http://plants.ensembl.org/index.html  下载方法可参考：https://www.omicsclass.com/article/58  
 phytozome（JGI）下载地址：https://phytozome.jgi.doe.gov/pz/portal.html  下载方法可以参考：https://www.omicsclass.com/article/50  
@@ -26,30 +26,30 @@ pfam：http://pfam.xfam.org/
    b. iTOL: https://itol.embl.de/  
 ![tree](https://www.omicsclass.com/image/show/attachments-2019-02-RbUXm4HJ5c661bede4e37.jpg)
 
-## 4.MEME 搜索基因motif分析
+## 4.MEME 搜索基因motif分析  
 MEME(Motif-based sequence analysis tools)大家都很了解，是搜索DNA或者蛋白质的motif常用工具，结果输出一般是有四个文件，motif的图形展示文件（LOGO），txt文本，html的网页信息文件及xml格式文件。  
 MEME可在线分析，也可本地在服务器上进行。  
 ![motif](https://www.omicsclass.com/image/show/attachments-2018-10-eE4S9VaA5bd6dbc5cca12.jpg)
 
-## 5.基因结构分析- 外显子内含子等作图
+## 5.基因结构分析- 外显子内含子等作图  
 GSDS网址：http://gsds.gao-lab.org/   
 ![GSDS](https://www.omicsclass.com/image/show/attachments-2018-10-JQEPqA8I5bd6dbd9b9360.jpg)  
 
-## 6.基因定位到染色体
+## 6.基因定位到染色体  
 http://mg2c.iask.in/mg2c_v2.0/  
 MG2C, MapGene2Chromosom: http://mg2c.iask.in/mg2c_v2.0/  
 ![MG2C](https://www.omicsclass.com/image/show/attachments-2018-10-kWpPgbY35bd6dbf186274.jpg)
 
-## 7.基因顺势作用原件分析
+## 7.基因顺势作用原件分析  
 Plant CARE 地址：http://bioinformatics.psb.ugent.be/webtools/plantcare/html/  
 提取顺势作用原件，利用GSDS绘图：  
 ![cis](https://www.omicsclass.com/image/show/attachments-2018-10-D5flRWuq5bd6dc2c3d292.jpg)
 
-## 8.基因亚细胞定位
+## 8.基因亚细胞定位  
 DeepLoc:
 TargetP:
 
-## 9.蛋白三维结构分析
+## 9.蛋白三维结构分析  
 ![3d](https://www.omicsclass.com/image/show/attachments-2021-04-hFGGUaNk6073f4798341d.png)
 1.同源模建 homology modeling   
 相似的氨基酸序列对应着相似的蛋白质结构 ,找到与目标序列一致度≥30%已知结构作为模板代表工具: SWISS-MODEL https://swissmodel.expasy.org/   
