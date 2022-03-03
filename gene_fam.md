@@ -46,8 +46,8 @@ Plant CARE 地址：http://bioinformatics.psb.ugent.be/webtools/plantcare/html/
 ![cis](https://www.omicsclass.com/image/show/attachments-2018-10-D5flRWuq5bd6dc2c3d292.jpg)
 
 ## 8.基因亚细胞定位  
-DeepLoc:
-TargetP:
+DeepLoc: https://services.healthtech.dtu.dk/service.php?DeepLoc-1.0  
+TargetP: https://services.healthtech.dtu.dk/service.php?TargetP-2.0  
 
 ## 9.蛋白三维结构分析    
 ![3d](https://www.omicsclass.com/image/show/attachments-2021-04-hFGGUaNk6073f4798341d.png)   
