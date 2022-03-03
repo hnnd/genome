@@ -9,7 +9,7 @@ NCBI官网下载：https://www.ncbi.nlm.nih.gov/  下载方法可参考：https:
 datasets download genome taxon "citrus" --dehydrated
 #下载会得到一个压缩文件ncbi_dataset.zip，包含了需要下载的文件
 unzip ncbi_dataset.zip
-datasets dehydrate --directory .
+datasets rehydrate --directory .
 ```
 ## 2.基因家族鉴定  
 1. 结构域hmmer鉴定  
