@@ -1,4 +1,4 @@
-# 基因家族鉴定分析操作手册  
+# 基因家族鉴定分析操作指南  
 ## 1.数据准备  
 基因家族鉴定与分析所需数据一般包括基因组序列fasta，基因组注释文件gff，编码序列cds和蛋白序列pep。  
 Ensembl下载地址：http://plants.ensembl.org/index.html  下载方法可参考：https://www.omicsclass.com/article/58  
